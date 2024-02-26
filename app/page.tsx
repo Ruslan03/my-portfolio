@@ -25,7 +25,7 @@ export default function Home() {
           <h1 className="text-2xl font-bold">Halo, saya Ruslan</h1>
           <p>
             Saya adalah seorang ayah dan suami yang biasa saja tapi menurut
-            beberapa orang saya luar biasa. Hehe, saya adalah seseorang Web
+            beberapa orang saya luar biasa. Hehe, saya adalah seorang Web
             Developer, saat ini fokus sebagai Front-end Engineer dengan terus
             mengikuti perkembangan teknologi pemrograman populer saat ini.
           </p>
