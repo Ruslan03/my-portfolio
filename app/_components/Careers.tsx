@@ -31,7 +31,7 @@ const _CAREERS_: ICareer[] = [
     url: "https://aria-indonesia.id",
     period: "Jul 2023 - Sekarang",
     description:
-      "Perusahaan yang bergerak di bidang Agriculture, mengembangkan sistem web mapping, gps tracking yang banyak berhubungan dengan GIS (geographic information system).",
+      "Perusahaan yang bergerak di bidang Agriculture, mengembangkan sistem Web Mapping, GPS Tracking, banyak berhubungan dengan GIS (geographic information system).",
     bgClass: "bg-green-800",
     companyName: "PT Aria Agri Indonesia",
   },
@@ -64,7 +64,7 @@ const _CAREERS_: ICareer[] = [
     url: "",
     period: "2018",
     description:
-      "Perusahaan yang bergerak di bidang software development dan Manufacturing, Mengembangkan sebuah sistem Tracking Logistic B2B.",
+      "Perusahaan yang bergerak di bidang software development dan Manufacturing, Mengembangkan sistem Tracking Logistic B2B.",
     bgClass: "bg-zinc-200",
     companyName: "Marva Cipta Indonesia",
   },
