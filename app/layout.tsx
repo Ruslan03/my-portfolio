@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./_components/theme-provider";
 import { NextUIProvider } from "./_components/nextui-provider";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ''
   return (
     <html>
       <head>
@@ -51,6 +53,8 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextUIProvider>{children}</NextUIProvider>
         </ThemeProvider>
+
+        <GoogleAnalytics gaId={GA_ID} />
       </body>
     </html>
   );
