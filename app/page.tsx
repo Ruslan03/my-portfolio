@@ -42,8 +42,7 @@ export default function Home() {
 
         <div className="flex flex-col lg:flex-row gap-4 mt-8">
           <div className="flex-grow">
-            <h2 className="font-bold text-xl">Proyek</h2>
-
+            <h2 className="font-bold text-xl">Proyek Saya</h2>
             <Projects />
           </div>
           <div className="w-full lg:w-2/5  flex flex-col gap-8">
