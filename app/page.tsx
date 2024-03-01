@@ -34,7 +34,7 @@ export default function Home() {
         <div className="mt-12">
           <h2 className="font-bold text-xl">Karir Profesional</h2>
           <p className="mt-2">
-            Memulai karir sebagai Web Developer sejak 2018, saya memiliki
+            Memulai karir sebagai Web Developer sejak 2018, saya memiliki banyak
             pengalaman proyek dan lingkungan kerja yang beragam
           </p>
           <Careers />
